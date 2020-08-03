@@ -1,0 +1,39 @@
+	SEMANA OMNISTACK 11
+
+2º dia (Base da aplicação) :
+
+// ** 
+* Tipos de parâmetros:
+*
+* Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
+* Route Params: Parâmetros utilizados para identificar recursos
+* Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+*
+*/
+
+/**
+* BANCOS DE DADOS:
+*
+* SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+* NoSQL: MongoBD, CouchDB, etc
+*
+*/
+
+/**
+* Driver: select * from users
+* Query Builder: table('users').select('*').where()
+*/
+
+/**
+*
+* Após instalar o 'knex' fazer a inicialização no knex através do:
+* - npx knex init
+*
+* MIGRATIONS: Uma forma de criar tabelas, de manter um histórico de todas as tabelas (alterações, etc)
+*
+* Para criar uma nova 'migration' utilizar o comando:
+* npx knex migrate:make nome_da_migration
+*
+* Para executar:
+* npx knex migrate:latest
+*/
